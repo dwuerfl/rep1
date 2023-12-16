@@ -6,10 +6,10 @@
 [app]
 
 # (str) Title of your application
-title = My Application
+title = HandyGate
 
 # (str) Package name
-package.name = myapp
+package.name = handygate
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.test
@@ -42,7 +42,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy,paho-mqtt
+requirements = python3=3.7.6,hostpython3==3.7.6,kivy,pillow,paho-mqtt
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -73,7 +73,7 @@ orientation = portrait
 
 #
 # author = © Copyright Info
-
+osx.python_version = 3.7.6
 # Kivy version to use
 osx.kivy_version = 2.2.0
 
